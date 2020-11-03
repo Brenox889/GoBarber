@@ -28,10 +28,13 @@
   "import/extensions": [
     "error",
     "ignorePackages",
+
     {
       "ts": "never"
     }
-  ]
+  ],
+  "prettier/prettier": "error"
+
     },
 
   "settings": {
