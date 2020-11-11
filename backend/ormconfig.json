@@ -4,7 +4,11 @@
   "port":5432,
   "username":"postgres",
   "password":"docker",
-  "database":"gostack_gobarber",
+  "database":"gostack_gobarber2",
+  "entities":[
+    "./src/model/*.ts"
+  ],
+
   "migrations":[
     "./src/database/migrations/*.ts"
   ],
